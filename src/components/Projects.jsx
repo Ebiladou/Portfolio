@@ -30,10 +30,10 @@ const Projects = () => {
   return (
     <div className="px-6 py-6 mt-6">
       <h2 className="mb-4 text-3xl uppercase">My Projects</h2>
-      <ul className="flex justify-between">
+      <ul className="flex flex-col gap-6 md:flex-row justify-between">
         {projects.map((project, index) => (
-          <li key={index}>
-            <div className="w-[300px]">
+          <li key={index} >
+            <div className="w-[260px]">
               <img
                 src={project.image}
                 alt="project samples"
