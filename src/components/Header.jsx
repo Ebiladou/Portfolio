@@ -17,8 +17,8 @@ const Header = () => {
   }, [text]);
 
   return (
-    <div className="flex justify-between items-center px-3 py-5">
-      <div className="w-[300px]">
+    <div className="flex justify-center gap-7 items-center px-3 py-5">
+      <div className="w-[250px]">
         <img src={User} alt="profile picture" className="w-full" />
       </div>
       <div className="text-container">

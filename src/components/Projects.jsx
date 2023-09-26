@@ -28,7 +28,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="px-6 py-6">
+    <div className="px-6 py-6 mt-6">
       <h2 className="mb-4 text-3xl uppercase">My Projects</h2>
       <ul className="flex justify-between">
         {projects.map((project, index) => (
